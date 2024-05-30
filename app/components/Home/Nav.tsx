@@ -41,7 +41,7 @@ const Nav =async () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link href="/browse-tasks">
+                            <Link href="/job/alljobs">
                                 <span className="text-gray-500 hover:text-green-600 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium cursor-pointer transition-colors duration-300">Browse Tasks</span>
                             </Link>
                         </div>

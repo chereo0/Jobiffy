@@ -3,6 +3,7 @@ import { Job } from "@/data";
 import Image from "next/image";
 import React from "react";
 import { BiMoney } from "react-icons/bi";
+import { FaRegBookmark } from "react-icons/fa";
 import { FaMapLocation } from "react-icons/fa6";
 import styled, { keyframes } from "styled-components";
 
@@ -129,6 +130,10 @@ const JobCard: React.FC<Props> = ({ job }) => {
               <BiMoney className="icon" />
               {job?.salary}
             </LocationSalary>
+          </div>
+          <div className=" absolute top-[1rem] right-[1rem]">
+            <FaRegBookmark className="w-[1rem] h-[1rem]"/>
+
           </div>
           <TagContainer>
             <Tag>{job?.jobtype}</Tag>

@@ -17,6 +17,13 @@ const FeautredJobs = () => {
             </Link>
         })}
       </div>
+      <Link href="/job/alljobs">
+        <div className='text-center mt-[3rem]'>
+          <button className=" px-8 py-3 inline-block border border-transparent text-base font-medium rounded-full text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer transition-colors duration-300" >
+            View All Job
+          </button>
+        </div>
+      </Link>
       </div>
   )
 }

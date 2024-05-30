@@ -56,6 +56,14 @@ export interface Job {
       location: "Canada",
       jobtype: "Freelance",
     },
+    {
+      id: 6,
+      title: "Delivery Services",
+      image: "/images/c8.jpg",
+      salary: "25k - 30k",
+      location: "Canada",
+      jobtype: "Around city",
+    },
   ];
   
   export default JobData;
